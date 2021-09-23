@@ -1,0 +1,647 @@
+.fw-bold{
+  font-weight: bold;
+}
+.fs-italic{
+  font-style: italic;
+}
+.row-style1{
+  margin-bottom:15px;
+}
+hr{
+width: 70%;
+border: none;
+height: 2px;
+color:gray;
+background-color: gray;
+}
+.col-style1{
+  margin:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width:2px;
+}
+.img-style{
+  width:250px;
+  height:220px;
+}
+.t-align{
+  text-align: center;
+}
+.mb-27{
+  margin-bottom: 27px;
+}
+.button-style{
+  text-align: center;
+  background-color:rgb(31, 160, 85);
+  color:white;
+  margin:auto;
+}
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+  min-height: 700px;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+}
+
+
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+} 
+
+
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 100px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+.list{
+  list-style-type: none;
+}
+.list li:before {
+  content: '– ';
+}
+
+p{
+  font-size: 16px;
+}
+
+.gtitle{
+  font-size: 24px;
+  color: rgb(31, 160, 85);
+}
+.contslide{
+    position:absolute;
+    bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.btn-position{
+  overflow:auto;
+  margin-bottom:20px;
+  margin-left:40px;
+}
+
+.vertical-line { 
+  border-left: 4px solid black; 
+  height: 400px; 
+  display: inline-block;
+  } 
+
+.square {
+    background: white;
+    box-sizing: content box;
+    opacity: 100%;
+    box-shadow: 6px 6px 8px black;
+    border-radius: 0 0 0 0;
+    border: 2px solid rgb(132, 138, 135);
+    font-size: 18px;
+    margin-bottom:18px;
+    width: 70%;
+    transition: background 1s;
+    cursor: pointer;
+}
+
+.square:hover {
+  
+  opacity: 90%;
+  box-shadow: 20px 20px 25px black;
+  transition: 0.5s;
+}
+
+.register .nav-tabs{
+  margin-top: 3%;
+  border: none;
+  background: #0062cc;
+  border-radius: 1.5rem;
+  width: 28%;
+  float: right;
+}
+.register .nav-tabs .nav-link{
+  padding: 2%;
+  height: 34px;
+  font-weight: 600;
+  color: #fff;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+  border: none;
+}
+.register .nav-tabs .nav-link.active{
+  width: 100px;
+  color: #0062cc;
+  border: 2px solid #0062cc;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.ins-btn{
+  color: black;
+  font-weight:bold;
+  border-radius:10px;
+  padding:8px;
+  border: 2px solid green;
+}
+.ins-btn:hover{
+  background-color: green;
+}
+.btn-active {
+  background-color: green;
+}
+
+@import url("https://rsms.me/inter/inter.css");
+:root {
+  --color-light: white;
+  --color-dark: #212121;
+  --color-green:green;
+  --color-signal: #fab700;
+  --color-background: var(--color-light);
+  --color-text: var(--color-dark);
+  --color-accent: var(--color-signal);
+  --size-bezel: .5rem;
+  --size-radius: 4px;
+   }
+
+/* .card {
+    background: var(--color-background);
+    padding: calc(4 * var(--size-bezel));
+    margin-top: calc(4 * var(--size-bezel));
+    border-radius: var(--size-radius);
+    border: 3px solid var(--color-shadow, currentColor);
+    box-shadow: 0.5rem 0.5rem 0 var(--color-shadow, currentColor); 
+}
+.card--inverted {
+  --color-background: var(--color-dark);
+  color: var(--color-light);
+  --color-shadow: var(--color-accent); 
+}
+.card--accent {
+  --color-background: var(--color-signal);
+  --color-accent: var(--color-light);
+  color: var(--color-dark); 
+}
+.card *:first-child {
+      margin-top: 0; 
+} */
+.l-design-widht {
+        max-width: 40rem;
+        padding: 1rem; 
+}
+      
+.input {
+  position: relative;
+  color: #000;
+  margin-top: 10px;
+}
+.input__label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #000;
+    padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+    margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * .5);
+    background: pink;
+    white-space: nowrap;
+    transform: translate(0, 0);
+    transform-origin: 0 0;
+    background: var(--color-background);
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    line-height: 1.2; 
+}
+.input__field {
+    color: #000;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 3px solid currentColor;
+    padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+    color: currentColor;
+    background: transparent;
+    border-radius: var(--size-radius); 
+}
+.input__field:focus + .input__label, .input__field:not(:placeholder-shown) + .input__label {
+
+      transform: translate(0.25rem, -65%) scale(0.8);
+      color: var(--color-dark); }
+      .button {
+        margin-top: 10px;
+        display: inline-block;
+        padding: 15px;
+        margin-right: 5px;
+        height: 50px;
+        min-width: 100px;
+        background: green;
+        border: none;
+        outline: none;
+        color: white;
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 20px;
+        border-radius: 3px;
+        box-shadow: 0 5px 0px #185c1a;
+        border-bottom: 2px solid #185c1a;
+}
+.button:hover {
+        background: green;
+        box-shadow: 0 4px 1px #185c1a;
+        border-bottom: 2px solid #185c1a;
+        transition: all 0.1s ease-in;
+}
+.button:active {
+        transform: translateY(4px);
+        border-bottom-width: 2px;
+        box-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+  .row-table2{
+    display: table;
+    width: 100%;
+  }
+  .col-cell2{
+    display: table-cell;
+  }
+}
+@media screen and (min-width: 576px) {
+
+  .row-table{
+    display: table;
+    width: 100%;
+  }
+  .col-cell{
+    display: table-cell;
+  }
+  .res-1{
+    width: 72%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-2{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-3{
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-9{
+    width: 68%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-4{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-5{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-6{
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-7{
+    width: 55%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-8{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 976px) {
+  .res-2{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+/* @media screen and (max-height: 768px) and (max-width: 1024px) {
+  .res-1{
+    width: 70%;
+    height: auto;
+  }
+}
+@media screen and (max-height: 1024px) and (max-width: 1280px) {
+  .res-1{
+    width: 60%;
+    height: auto;
+  }
+}
+ */
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ /* Style the tab */
+ .tabinscription {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tabinscription button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tabinscription button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabinscription button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+} 
+.float{
+	position:absolute;
+	color:#FFF;
+	text-align:center;
+}
+
+.dash{
+  margin-bottom: 30px;
+  padding:20px;
+  border-radius:15px;
+  font-weight:bold;
+  box-shadow: 0 2px 0px #185c1a;
+  border-bottom: 2px solid #185c1a;
+}
+.fixed-content {
+  top: 0;
+  bottom:0;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 40%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+ul.list_profil {
+  list-style: none;
+}
+
+.user-menu-wrap {
+  position: relative;
+  width: 36px;
+  margin: 10px 15px auto;
+  float:right;
+
+}
+
+.menu-container {
+  visibility: hidden;
+  opacity: 0;
+}
+.menu-container.active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.user-menu {
+  position: absolute;
+  right: -22px;
+  background-color: #FFFFFF;
+  width: 256px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+.user-menu .profile-highlight {
+  display: flex;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 12px 16px;
+  margin-bottom: 6px;
+}
+.user-menu .profile-highlight img {
+  width: 48px;
+  height: 48px;
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user-menu .profile-highlight .details {
+  display: flex;
+  flex-direction: column;
+  margin: auto 12px;
+}
+.user-menu .profile-highlight .details #profile-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+.user-menu .profile-highlight .details #profile-footer {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.user-menu .footer {
+  border-top: 1px solid #E0E0E0;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+.user-menu .footer .user-menu-link {
+  font-size: 13px;
+}
+.user-menu .user-menu-link {
+  display: flex;
+  text-decoration: none;
+  color: #333333;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 12px 16px;
+}
+.user-menu .user-menu-link div {
+  margin: auto 10px;
+}
+.user-menu .user-menu-link:hover {
+  background-color: #F5F5F5;
+  color: #333333;
+}
+.user-menu:before {
+  position: absolute;
+  top: -16px;
+  left: 120px;
+  display: inline-block;
+  content: "";
+  border: 8px solid transparent;
+  border-bottom-color: #E0E0E0;
+}
+.user-menu:after {
+  position: absolute;
+  top: -14px;
+  left: 121px;
+  display: inline-block;
+  content: "";
+  border: 7px solid transparent;
+  border-bottom-color: #FFFFFF;
+}
+/*
+ * FilePond Custom Styles
+ */
+ .filepond--drop-label {
+  color: #74767b;
+}
+
+.filepond--label-action {
+  -webkit-text-decoration-color: #babdc0;
+          text-decoration-color: #babdc0;
+}
+
+.filepond--panel-root {
+  background-color: #6c91c2;
+}
+
+.filepond--root {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.calculation-box {
+  height: 75px;
+  width: 150px;
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  text-align: center;
+}
+.map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}  
